@@ -1,0 +1,70 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>StudentServlet</servlet-name>
+        <servlet-class>StudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentServlet</servlet-name>
+        <url-pattern>/StudentServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RoomServlet</servlet-name>
+        <servlet-class>RoomServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RoomServlet</servlet-name>
+        <url-pattern>/RoomServlet</url-pattern>
+    </servlet-mapping>
+
+   <servlet>
+        <servlet-name>StaffServlet</servlet-name>
+        <servlet-class>StaffServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StaffServlet</servlet-name>
+        <url-pattern>/StaffServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FeeServlet</servlet-name>
+        <servlet-class>FeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FeeServlet</servlet-name>
+        <url-pattern>/FeeServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ComplaintServlet</servlet-name>
+        <servlet-class>ComplaintServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ComplaintServlet</servlet-name>
+        <url-pattern>/ComplaintServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>VisitorServlet</servlet-name>
+        <servlet-class>VisitorServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>VisitorServlet</servlet-name>
+        <url-pattern>/VisitorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AttendanceServlet</servlet-name>
+        <servlet-class>AttendanceServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>AttendanceServlet</servlet-name>
+        <url-pattern>/AttendanceServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
