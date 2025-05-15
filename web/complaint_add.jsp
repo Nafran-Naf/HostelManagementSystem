@@ -73,7 +73,6 @@
     <div class="custom-navbar text-center">
         <h2 class="main-heading"><%= (id != null ? "Edit" : "Add")%> Complaint</h2>
     </div>
-<h2></h2>
 
 <form action="ComplaintServlet" method="post">
     <input type="hidden" name="id" value="<%= id != null ? id : "" %>">
